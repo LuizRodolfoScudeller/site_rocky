@@ -1,0 +1,65 @@
+body, html {
+    margin: 0;
+    font: 16px "Lato", sans-serif;
+    height: 100%;
+    width: 100%;
+}
+.conteudo {
+    color:darkviolet;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgb(255, 227, 239) 0%, rgb(203, 226, 253) 100%);
+    text-align: justify;
+    padding: 50px 80px;
+    font: 17px "Lato";
+    text-indent: 20px;
+    line-height: 27px;
+}
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+p {
+    margin-bottom: 20px;
+}
+.img-estrelas, .img-ada, .img-joan {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed ;
+}
+.img-estrelas {
+    background-image: url(../img/img_estrelas.jpg);
+}
+.img-ada {
+    background-image: url(../img/eniac.jpeg);
+}
+.img-joan{
+    background-image: url(../img/joan_index.jpg);
+}
+.conteudo-titulo {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    opacity: 1;
+    text-align: center;
+}
+.conteudo-titulo span.titulo {
+    color: #fff;
+    background-color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+.history-back {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    height: 100%;
+    background-size: 0.45%;
+    background-attachment:local;
+}
